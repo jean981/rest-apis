@@ -1,9 +1,12 @@
 package com.jps.firstapi.domain.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class UserDTO {
     private Integer id;
     private String name;
     private String email;
+    @JsonIgnore
     private String password;
 
     public UserDTO(){

@@ -1,7 +1,8 @@
 package com.jps.firstapi.controllers;
 
-import com.jps.firstapi.domain.User;
+import com.jps.firstapi.domain.dto.UserDTO;
 import com.jps.firstapi.services.UserService;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -16,9 +17,11 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    @Autowired
+    private ModelMapper mapper;
     @GetMapping(value = "/{id}")
-    public ResponseEntity<User> findById(@PathVariable Integer id){
+    public ResponseEntity<UserDTO> findById(@PathVariable Integer id){
 
-        return ResponseEntity.ok().body(userService.findById(id));
+        return ResponseEntity.ok().body(mapper.map(userService.findById(id),UserDTO.class));
     }
 }
