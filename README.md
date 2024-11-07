@@ -15,8 +15,10 @@ Welcome to the REST API with Spring Boot repository! 🎉
 
 ## 🚀 Getting Started
 
-<p align="left">Follow these steps to set up and run the project locally.
-Prerequisites Make sure you have JDK 17 LTS installed on your machine.</p>
+<p align="left">
+  
+Follow these steps to set up and run the project locally.
+Prerequisites Make sure you have **JDK 17 LTS or higher** installed on your machine.</p>
 
 ### Installation
 Clone this repository to your development environment:
@@ -37,26 +39,70 @@ Run the Spring Boot application using Maven:
 Access the API documentation at: http://localhost:8080/swagger-ui/
 
 
-🛠️ Technologies
+# 🛠️ Technologies
+
+<p align="left">
+  <a href="https://github.com/Naereen/badges/">
+    <img src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github" alt="Open Source Yes">
+  </a>
+</p>
+
 This project leverages the following technologies:
 
-Java 17
-Spring Boot
-Maven for dependency management
-Swagger for API documentation
-📚 Documentation
-Explore the Swagger API documentation to learn more about each available endpoint. Swagger provides a user-friendly interface for testing the API.
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,idea,maven,java,spring&theme=light" />
+  </a>
+</p>
 
-📌 Endpoints Overview
-Method	Endpoint	Description
-GET	/api/resource	Fetch a list of resources
-POST	/api/resource	Create a new resource
-GET	/api/resource/{id}	Retrieve a specific resource
-PUT	/api/resource/{id}	Update an existing resource
-DELETE	/api/resource/{id}	Delete a specific resource
-Note: Replace resource with your actual entity name in the API path.
+<p align="left"> 
+  
+  🐕‍🦺 **Maven** for dependency management</p>
+<p align="left">
+  
+  📔 **Swagger** for API documentation</p>
 
-📞 Contact
-If you have any questions or suggestions, feel free to open an issue or contact me via email.
+  
+# 📚 API Documentation
 
-Happy coding! 😄
+<p align="justify">
+  
+Explore the [Swagger API documentation](https://swagger.io/docs/) to learn more about each available endpoint. Swagger provides a user-friendly interface for testing the API.
+</p>
+
+## 📌 Endpoints Overview
+    
+| Method| Endpoint| Description|
+|--------| ------- | ---------- |
+| 📮 GET |`/api/resource`| Fetch a list of resources |
+| 🗒️ POST|`/api/resource`| Create a new resource     |
+| 📮 GET |`/api/resource/{id}`| Retrieve a specific resource |
+| 🗒️ PUT |`/api/resource/{id}`| Update an existing resource  |
+| ☠️ DELETE|`/api/resource/{id}`| Delete a specific resource |
+
+## Reference
+
+ - 📓 [Java Documentation](https://docs.oracle.com/en/java/)
+ - 📗 [Spring Boot Documentation OverView](https://docs.spring.io/spring-boot/documentation.html)
+ - 💾 [Apache Maven Project Documentation](https://maven.apache.org/guides/index.html)
+
+## 📞 Contact
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linkedin,gmail,discord,instagram,tweeter&theme=dark" />
+  </a>
+</p>
+<p align="justify">
+If you have any questions or suggestions, feel free to open an issue or contact me via.
+</p>
+
+## Created with 
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=github,htmx&theme=dark" />
+  </a>
+</p>
+<p align="left">
+
+**Happy coding!** 😄  
+</p>
