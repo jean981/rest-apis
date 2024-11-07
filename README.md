@@ -41,20 +41,17 @@ Access the API documentation at: http://localhost:8080/swagger-ui/
 
 # 🛠️ Technologies
 
-<p align="left">
-  <a href="https://github.com/Naereen/badges/">
-    <img src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github" alt="Open Source Yes">
-  </a>
-</p>
+<a href="https://github.com/Naereen/badges/">
+  <img src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github" alt="Open Source Yes">
+</a>
 
 This project leverages the following technologies:
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,idea,maven,java,spring&theme=light" />
+    <img src="https://skillicons.dev/icons?i=git,idea,java&theme=light" />
   </a>
 </p>
-
 <p align="left"> 
   
   🐕‍🦺 **Maven** for dependency management</p>
